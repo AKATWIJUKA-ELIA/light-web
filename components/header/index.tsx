@@ -31,13 +31,13 @@ const Header = () => {
     };
   }, []);
 
-  const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1);
-    } else {
-      setOpenIndex(index);
-    }
-  };
+//   const handleSubmenu = (index) => {
+//     if (openIndex === index) {
+//       setOpenIndex(-1);
+//     } else {
+//       setOpenIndex(index);
+//     }
+//   };
  
   return (
     <>
