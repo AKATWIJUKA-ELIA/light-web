@@ -7,7 +7,7 @@ import { FaCode } from 'react-icons/fa'
 
 
 const Hero = () => {
-      
+      const iam = "I'M";
       
   return (
       <div className="-ml-28 flex relative min-h-screen flex-col  " >
@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className='text-left ml-3 md:ml-28 mt-10'>
                   <h1 className=' text-xl md:text-4xl font-bold text-pink-400'>
-                  I'M a
+                  I&apos;M a
 
                   <span className='text-left text-blue-500'>
                   <Typewriter
