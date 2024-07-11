@@ -15,10 +15,9 @@ const Header = () => {
 
   const [sticky, setSticky] = useState(false);
   const [openIndex, setOpenIndex] = useState(-1);
-  const [showModel2, setShowModel2] = useState(false);
 
   const handleStickyNavbar = () => {
-    if (window.scrollY >= 700) {
+    if (window.scrollY >= 100) {
       setSticky(true);
     } else {
       setSticky(false);
@@ -42,40 +41,33 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center  mt-[-8px] ${
-          sticky
-            ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-sm fade-in !transition dark:! dark:!bg-opacity-100"
-            : "absolute"
-        }`}
+        className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
+            ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-sm fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
+      }
       >
-        <div className="container">
-          <div className="relative flex items-center justify-between">
-            <div className="w-60 relative z-10">
+        <div className=" mt-10 container">
+          <div className=" relative flex items-center justify-between">
+            <div className=" w-60 relative z-10">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-2 lg:py-2" : "py-3"
-                }`}
+                className={`header-logo block fade-in-slower`}
               >
-                <Image
+                <div className="ml-32   ">
+                  <Image
+                  className="rounded-lg bg-gradient-to-r from-indigo-600 to-purple-700 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                   src={image}
-                  alt="logo"
-                  width={4572}
-                  height={1296}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src={image}
-                  alt="logo"
-                  width={100}
+                  alt="Light Logo"
+                  width={120}
                   height={20}
-                  className="hidden w-full dark:block"
-                />
+                  priority
+                  />
+                  </div>
               </Link>
+                  
             </div>
-            <div className="flex space-x-20 justify-between transform bg-white">
+            <div className="flex fade-in backdrop-blur-sm justify-between transform bg-transparent">
               <div>
-                <button
+                {/* <button
                   onClick={() => setNavbarOpen(!navbarOpen)}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
@@ -96,13 +88,13 @@ const Header = () => {
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
-                </button>
+                </button> */}
 
                 <nav
                   id="navbarCollapse"
-                  className={`navbar hidden lg:block absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
+                  className={`navbar hidden lg:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
                 >
-                  <ul className="block lg:flex bg-white lg:space-x-8 top-0 left-0 h-full  text-black">
+                  <ul className="block lg:flex  bg-white lg:space-x-8 top-0 left-0 h-full  text-black">
                     <li className="group relative">
                       <Link
                         href="."
@@ -125,7 +117,7 @@ const Header = () => {
                        
                       >
                         <span className={""}>
-                          Student life
+                          Services
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
                           <FaChevronDown className={"drop"} />
@@ -140,7 +132,7 @@ const Header = () => {
                         
                       >
                         <span className={""}>
-                          Research
+                        Projects
                         </span>
                         <span className={"my-1 ml-2 dark:text-dark "}>
                           <FaChevronDown className={"drop"} />
@@ -154,7 +146,7 @@ const Header = () => {
                        
                       >
                         <span className={""}>
-                          Campuses
+                          About
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
                           <FaChevronDown className={"drop"} />
@@ -164,7 +156,7 @@ const Header = () => {
 
                     <li>
                       <Link
-                        href=""
+                        href="/contact"
                         className={`nav hover flex py-2  text-black  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >

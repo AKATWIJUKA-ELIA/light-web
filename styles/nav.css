@@ -19,3 +19,10 @@
 .fade-in-slow{
       animation: fadeIn 1.5s ease-in-out forwards;
 }  
+
+.fade-in-slower{
+      animation: fadeIn 3s ease-in-out forwards;
+} 
+.fade-in-slowest{
+      animation: fadeIn 4s ease-in-out forwards;
+} 
