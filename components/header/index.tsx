@@ -2,13 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
-
 import image from "../../public/images/logo.png";
-
 import "../../styles/nav.css";
 import "../../styles/index.css";
 import { FaChevronDown } from "react-icons/fa";
+import { HiBars3 } from "react-icons/hi2";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -52,7 +51,7 @@ const Header = () => {
                 href="/"
                 className={`header-logo block fade-in-slower`}
               >
-                <div className="ml-32   ">
+                <div className="md:ml-32   ">
                   <Image
                   className="rounded-lg bg-gradient-to-r from-indigo-600 to-purple-700 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                   src={image}
@@ -67,13 +66,16 @@ const Header = () => {
             </div>
             <div className="flex fade-in backdrop-blur-sm justify-between transform bg-transparent">
               <div>
-                {/* <button
+                <button
                   onClick={() => setNavbarOpen(!navbarOpen)}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
-                  <span
+                  {/* <HiBars3 className=" size-12"/> */}
+                  {/* <HiBarsArrowDown /> */}
+                  <HiOutlineBars3/>
+                  {/* <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
                     }`}
@@ -87,8 +89,8 @@ const Header = () => {
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
-                  />
-                </button> */}
+                  /> */}
+                </button>
 
                 <nav
                   id="navbarCollapse"

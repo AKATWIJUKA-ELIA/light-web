@@ -12,10 +12,10 @@ const info = () => {
             
                   <div className='flex flex-col md:mt-24 '>
                   <h1 className='text-start md:text-center md:text-4xl font-semibold'>
-                        <span className='text-green-400 md:ml-32'>Hello ! </span> I&apos;m Akatwijuka Elia
+                        <span className='text-2xl text-green-400 md:ml-32'>Hello ! </span> I&apos;m Akatwijuka Elia
                   </h1>
 
-                  <div className=' rounded-lg border border-black px-4 py-5  bg-opacity-25 bg-blue-900 backdrop-blur-md text-center md:text-left  '>
+                  <div className='mt-10 rounded-lg border border-black px-4 py-5  bg-opacity-25 bg-blue-900 backdrop-blur-md text-center md:text-left  '>
                         <h1 className='text-2xl'>
                         I&apos;m a Proffessional Software engineer with a strong understanding <br /> of software development principles and passion for solving problems through code.
                         <br /> I&apos;m also a Full-stack web developer and Networker. <br /> With the experience i have attained in these fields 

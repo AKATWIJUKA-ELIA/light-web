@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
 
             <div className='text-left ml-3 md:ml-28 mt-10'>
-                  <h1 className=' text-xl md:text-4xl font-bold text-pink-400'>
+                  <h1 className=' text-2xl md:text-4xl font-bold text-pink-400'>
                   I&apos;M a
 
                   <span className='text-left text-blue-500'>
