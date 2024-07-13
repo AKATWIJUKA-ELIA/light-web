@@ -3,30 +3,30 @@ import { Typewriter } from 'nextjs-simple-typewriter'
 import Image from 'next/image'
 import { LuNetwork } from 'react-icons/lu'
 import { FaCode } from 'react-icons/fa'
+import { BiChevronDown } from 'react-icons/bi'
 
 
 
 const Hero = () => {
-      const iam = "I'M";
       
   return (
-      <div className="-ml-28 flex relative min-h-screen flex-col  " >
+      <div className="-ml-28 flex relative min-h-screen flex-col  backdrop-blur-lg"  >
       
-      <div className="text-center z-10 md:text-start ml-32 mt-32 flex flex-col">
+      <div className="  md:text-center z-10 md:text-start ml-32 md:ml-0 mt-32 md:mt-40 flex flex-col backdrop-blur-md">
 
-            <div className="fade-in-slowest text-center md:text-left md:ml-28 mt-10">
+            <div className="fade-in-slowest text-center md:text-left md:ml-28 mt-10 ">
       
                         
-                  <h1 className="text-left text-3xl fade-in md:text-6xl text-pink-400 font-bold">
+                  <h1 className="text-left md:text-center text-3xl fade-in md:text-6xl text-pink-400 font-bold">
                   <span className='text-green-400'> THE </span> 
 
-                  LIGHT  <span className="text-blue-500 md:text-6xl  fade-in-slowest ">TECHNOLOGIES . . .</span>
+                  LIGHT  <span className="text-blue-500 md:text-6xl  fade-in-slowest ">TECHNOLOGIES </span>
                   </h1>
             
 
             </div>
 
-            <div className='text-left ml-3 md:ml-28 mt-10'>
+            <div className='text-left md:text-center ml-3 md:ml-28 mt-10'>
                   <h1 className=' text-2xl md:text-4xl font-bold text-pink-400'>
                   I&apos;M a
 
@@ -48,9 +48,14 @@ const Hero = () => {
 
             
 
-            <div className='text-left md:ml-28 mt-10 '>
+            <div className='text-left md:text-center md:ml-28 mt-10 '>
                   <h1 className='md:text-4xl'><span className='font-bold'> With the Increasingly developing technologies, We aim at providing Quality, durable and secure software solutions to our Customers </span> <br /> <br /> Feel free to explore our sevices...</h1>
+                  
             </div>
+            <div className=' flex justify-center items-center mt-10' >
+            <BiChevronDown className='text-5xl md:ml-20 ' style={{cursor:'pointer'}} />
+            </div>
+            
 
             
 

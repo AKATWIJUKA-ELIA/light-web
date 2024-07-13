@@ -27,7 +27,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleStickyNavbar);
     };
-  }, []);
+  }, []); 
 
 //   const handleSubmenu = (index) => {
 //     if (openIndex === index) {
@@ -40,8 +40,8 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
-            ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-sm fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
+        className={`header fixed top-0 left-0 z-40 flex w-full items-center backdrop-blur-sm mt-[-8px] 
+            ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-md fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
       }
       >
         <div className=" mt-10 container">
