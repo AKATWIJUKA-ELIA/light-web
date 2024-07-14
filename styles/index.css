@@ -315,3 +315,23 @@
 .slide-up-slower{
       animation-duration: 2.5s
 }
+
+.color:hover{
+      color: rgb(211, 65, 213);
+}
+.borderc {
+      border-left: 5px solid rgb(255, 0, 234);
+    }
+
+
+ /* CONTACT BUTTONS  */
+
+.contact {
+      transition: 0.5s;
+    }
+    
+.contact:hover {
+      background-color: rgb(255, 0, 195);
+      /* border-color: rgb(0, 98, 255); */
+      
+    }

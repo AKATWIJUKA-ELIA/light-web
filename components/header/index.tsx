@@ -96,17 +96,17 @@ const Header = () => {
                   id="navbarCollapse"
                   className={`navbar hidden lg:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
                 >
-                  <ul className="block lg:flex  bg-white lg:space-x-8 top-0 left-0 h-full  text-black">
+                  <ul className="block lg:flex  bg-black lg:space-x-8 top-0 left-0 h-full  text-white">
                     <li className="group relative">
                       <Link
                         href="."
-                        className={`nav hover ml-3 flex py-2 text-black text-md  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                        className={`nav hover ml-3 flex py-2 text-white text-md  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >
                         <span className={""}>
                           Programs
                         </span>
-                        <span className="my-1 ml-2 dark:text-dark  text-bold">
+                        <span className="my-1 ml-2  font-bold">
                           <FaChevronDown className={"drop"} />
                         </span>
                       </Link>
@@ -115,7 +115,7 @@ const Header = () => {
                     <li>
                       <Link
                         href=""
-                        className={`nav hover flex py-2  text-black  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                        className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >
                         <span className={""}>
@@ -130,7 +130,7 @@ const Header = () => {
                     <li>
                       <Link
                         href=""
-                        className={`nav hover flex py-2  text-black  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                        className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >
                         <span className={""}>
@@ -144,7 +144,7 @@ const Header = () => {
                     <li>
                       <Link
                         href=""
-                        className={`nav hover flex py-2  text-black  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                        className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >
                         <span className={""}>
@@ -159,7 +159,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="/contact"
-                        className={`nav hover flex py-2  text-black  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                        className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >
                         <span className={""}>
