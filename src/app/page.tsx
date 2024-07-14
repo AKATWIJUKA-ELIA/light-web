@@ -7,7 +7,9 @@ import Info from "../../components/below-hero";
 
 export default function Home() {
   return (
-    <div className=" overflow-hidden " style={{ backgroundImage:`url('/images/newbg.jpg')`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center', backgroundBlendMode:'multiply'}}>
+    <div className=" overflow-hidden " 
+//     style={{ backgroundImage:`url('/images/newbg.jpg')`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center', backgroundBlendMode:'multiply'}}
+    >
 
       <Hero/>
       <Info />

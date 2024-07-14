@@ -3,10 +3,11 @@ import Image from 'next/image'
 import code from '../../public/images/code.png'
 
 
+
 const info = () => {
   return (
 
-      <div className=''>
+      <div className='smooth'>
             <div className='  text-center md:text-left bg-blue-800 bg-opacity-25 '>
             <div className='md:ml-10 md:ml-24 flex flex-col md:flex md:flex-row gap-20 '>
             
