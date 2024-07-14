@@ -27,7 +27,7 @@ const Hero = () => {
       
       
   return (
-      <div className="-ml-28 flex relative min-h-screen   backdrop-blur-lg smooth"  >
+      <div className="-ml-28 flex flex-col md:flex-row relative min-h-screen   backdrop-blur-lg smooth"  >
       
             <div className="  md:text-center z-10 md:text-start ml-32 md:ml-0 mt-32 md:mt-40 flex flex-col backdrop-blur-md">
 
@@ -62,7 +62,7 @@ const Hero = () => {
                         </h1>
                   </div>
 
-                  <div className=" mt-10 md:mx-40 md:py-2 flex mx-4  backdrop-blur-sm text-center md:grid  md:grid-cols-6 md:text-left  ">
+                  <div className="grid grid-cols-3 md:grid md:grid-cols-1 -ml-3 mt-10 md:mx-40 md:py-2 flex md:mx-4  backdrop-blur-sm text-center md:grid  md:grid-cols-6 md:text-left  ">
                         <a
                         href="https://github.com/AKATWIJUKA-ELIA"
                         className="group rounded-full border-double border-4 bg-gradient-to-r from-indigo-600 via-purple-700 md:mx-6 px-5 py-4 contact"  >
@@ -111,7 +111,7 @@ const Hero = () => {
                   <BiChevronDown className='text-5xl md:ml-20 color' onClick={handleScroll} style={{cursor:'pointer'}} />
                   </div>
 
-                  <div className='flex ml-32'>
+                  <div className='flex md:ml-32 gap-2'>
                         <div  className="rounded-full border-double border-4 bg-gradient-to-r from-indigo-600 via-purple-700  md:mx-6 contact"style={{cursor:'pointer'}}  >
                              <h1 className='text-2xl font-bold pt-1 mr-2 '> Call now  </h1> <SlCallOut className=' text-2xl ml-32 pr-1 -mt-6'/>
                         
@@ -129,7 +129,7 @@ const Hero = () => {
 
             </div>
 
-            <div className='transform skew-x-12 px-20 borderc bg-gradient-to-r from-purple-900 -mr-20'>
+            <div className='transform skew-x-12 px-20 borderc bg-gradient-to-r from-purple-900 -mr-20 hidden md:block'>
             <Image src={code} alt='code' layout='cover' width={900} height={600} className='   backdrop-blur-md -ml-5 mt-52 px-0  transform -skew-x-12 rounded-lg' style={{backgroundBlendMode:'multiply'}}/>
             </div>
 
