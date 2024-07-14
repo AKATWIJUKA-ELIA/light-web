@@ -96,7 +96,7 @@ const Header = () => {
                   id="navbarCollapse"
                   className={`navbar hidden lg:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
                 >
-                  <ul className="block lg:flex  bg-black lg:space-x-8 top-0 left-0 h-full  text-white">
+                  <ul className="block lg:flex  bg-black lg:space-x-8 top-0 left-0 mr-2 h-full  text-white">
                     <li className="group relative">
                       <Link
                         href="."
