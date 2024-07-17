@@ -6,7 +6,6 @@ import image from "../../public/images/logo.png";
 import "../../styles/nav.css";
 import "../../styles/index.css";
 import { FaChevronDown } from "react-icons/fa";
-import { HiBars3 } from "react-icons/hi2";
 import { HiOutlineBars3 } from "react-icons/hi2";
 
 const Header = () => {
@@ -28,19 +27,11 @@ const Header = () => {
       window.removeEventListener("scroll", handleStickyNavbar);
     };
   }, []); 
-
-//   const handleSubmenu = (index) => {
-//     if (openIndex === index) {
-//       setOpenIndex(-1);
-//     } else {
-//       setOpenIndex(index);
-//     }
-//   };
     
   return (
     <>
       <header
-        className={`header fixed top-0 left-0 z-40 flex w-full items-center backdrop-blur-sm mt-[-8px] 
+        className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
             ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-md fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
       }
       >
@@ -64,7 +55,7 @@ const Header = () => {
               </Link>
                   
             </div>
-            <div className="flex fade-in backdrop-blur-sm justify-between transform bg-transparent">
+            <div className="flex fade-in justify-between transform bg-transparent">
               <div>
                 <button
                   onClick={() => setNavbarOpen(!navbarOpen)}
@@ -72,31 +63,14 @@ const Header = () => {
                   aria-label="Mobile Menu"
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
-                  {/* <HiBars3 className=" size-12"/> */}
-                  {/* <HiBarsArrowDown /> */}
                   <HiOutlineBars3/>
-                  {/* <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[7px] rotate-45" : " "
-                    }`}
-                  />
-                  <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? "opacity-0 " : " "
-                    }`}
-                  />
-                  <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[-8px] -rotate-45" : " "
-                    }`}
-                  /> */}
                 </button>
 
                 <nav
                   id="navbarCollapse"
-                  className={`navbar hidden lg:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
+                  className={`navbar hidden md:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
                 >
-                  <ul className="block lg:flex  bg-black lg:space-x-8 top-0 left-0 mr-2 h-full  text-white">
+                  <ul className="block lg:flex  bg-black backdrop-blur-sm lg:space-x-8 top-0 left-0 mr-8 h-full  text-white">
                     <li className="group relative">
                       <Link
                         href="."
@@ -104,7 +78,7 @@ const Header = () => {
                         
                       >
                         <span className={""}>
-                          Programs
+                          Home
                         </span>
                         <span className="my-1 ml-2  font-bold">
                           <FaChevronDown className={"drop"} />
@@ -129,7 +103,7 @@ const Header = () => {
 
                     <li>
                       <Link
-                        href=""
+                        href="/projects"
                         className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >
@@ -177,13 +151,7 @@ const Header = () => {
           </div>
 
         </div>
-      </header>
-      
-      {/* {navbarOpen && (
-        <MobileNav setNavbarOpen={setNavbarOpen} navbarOpen={navbarOpen} />
-      )} */}
-
-      
+      </header>      
     </>
   );
 };
