@@ -1,12 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import projects1 from '../../../public/images/projects1.png'
+import projects2 from '../../../public/images/projects2.png'
 
 
 
 
-const projects1 = '/images/Projects1.png'
-const projects2 = '/images/Projects2.png'
+const projects = '/images/Projects1.png'
+const project = '/images/Projects2.png'
 const Projects = () => {
   return (
     <div className='top-0 justify-between items-center bg-gradient-to-r from-indigo-600' >
