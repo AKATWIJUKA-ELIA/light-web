@@ -331,7 +331,7 @@
     }
     
 .contact:hover {
-      background-color: rgb(255, 0, 195);
-      /* border-color: rgb(0, 98, 255); */
+      /* background-color: rgb(255, 0, 195); */
+      color: rgb(159, 25, 2);
       
     }
