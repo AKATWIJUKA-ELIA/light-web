@@ -32,7 +32,7 @@ const Header = () => {
     <>
       <header
         className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
-            ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-md fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
+            ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-lg fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
       }
       >
         <div className=" mt-10 container">
@@ -40,22 +40,13 @@ const Header = () => {
             <div className=" w-60 relative z-10">
               <Link
                 href="/"
-                className={`header-logo block fade-in-slower`}
-              >
-                <div className="md:ml-32   ">
-                  <Image
-                  className="rounded-lg bg-gradient-to-r from-indigo-600 to-purple-700 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                  src={image}
-                  alt="Light Logo"
-                  width={120}
-                  height={20}
-                  priority
-                  />
-                  </div>
+                className={`header-logo block fade-in-slower`}> 
+                <span className="ml-7 font-bold text-5xl">L I G H T </span>
+                
               </Link>
                   
             </div>
-            <div className="flex fade-in justify-between transform bg-transparent">
+            <div className="flex fade-in justify-between transform">
               <div>
                 <button
                   onClick={() => setNavbarOpen(!navbarOpen)}
@@ -70,7 +61,7 @@ const Header = () => {
                   id="navbarCollapse"
                   className={`navbar hidden md:block absolute mr-10 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-primary py-4 px-6 duration-300 ease-out transition-transform transform dark:border-body-color/20 dark:bg-white lg:visible lg:static lg:w-auto lg:border-none lg:bg-dark lg:p-0 lg:opacity-100`}
                 >
-                  <ul className="block lg:flex  bg-black backdrop-blur-sm lg:space-x-8 top-0 left-0 mr-8 h-full  text-white">
+                  <ul className="border-2 rounded-full block lg:flex  backdrop-blur-lg lg:space-x-8 top-0 left-0 mr-8 h-full  text-white">
                     <li className="group relative">
                       <Link
                         href="."
