@@ -37,11 +37,11 @@ const Header = () => {
       >
         <div className=" mt-10 container">
           <div className=" relative flex items-center justify-between">
-            <div className=" w-60 relative z-10">
+            <div className=" w-80 relative z-10">
               <Link
                 href="/"
                 className={`header-logo block fade-in-slower`}> 
-                <span className="ml-7 font-bold text-5xl">L I G H T </span>
+                <span className="ml-7 font-bold text-5xl">L I G H T<span className="text-3xl font-light" >tech</span></span>
                 
               </Link>
                   
