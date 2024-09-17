@@ -9,7 +9,6 @@ const testimonial = () => {
 
             <div className='justify-center flex'> <h1 className='font-bold text-6xl'> Testimonials </h1></div>
 
-            <Carousel data-carousel="slide">
             <div className="mx-auto max-w-2xl lg:max-w-4xl bg-white rounded-3xl">
             {/* <img alt="" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" className="mx-auto h-12" /> */}
 
@@ -42,7 +41,6 @@ const testimonial = () => {
 
             </figure>
             </div>
-            </Carousel>
     </section>
   )
 }
