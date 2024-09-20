@@ -5,6 +5,8 @@ import Hero from "../../components/Hero";
 import Header from "../../components/header";
 import Info from "../../components/below-hero";
 import Testimonial from "../../components/testimonial";
+import { useEffect, useState } from "react";
+
 
 export default function Home() {
   return (

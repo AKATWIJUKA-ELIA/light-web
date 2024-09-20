@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
+        className={`header fixed top-0 left-0 z-40 flex w-full items-center bg-opacity-20   mt-[-8px] 
             ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-lg fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
       }
       >
@@ -72,14 +72,14 @@ const Header = () => {
                           Home
                         </span>
                         <span className="my-1 ml-2  font-bold">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        href=""
+                        href="#services"
                         className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >
@@ -87,7 +87,7 @@ const Header = () => {
                           Services
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
@@ -102,7 +102,7 @@ const Header = () => {
                         Projects
                         </span>
                         <span className={"my-1 ml-2 dark:text-dark "}>
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
@@ -116,7 +116,7 @@ const Header = () => {
                           About
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
@@ -131,7 +131,7 @@ const Header = () => {
                           Contact Us
                         </span>
                         <span className="my-1 ml-2 text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>

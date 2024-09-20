@@ -1,15 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
 import code from '../../public/images/me.png'
-import { Carousel } from "flowbite-react";
+// import { Carousel } from "flowbite-react";
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
 
 const testimonial = () => {
+
   return (
       <section className="relative justify-center isolate overflow-hidden border rounded-3xl my-10 px-6 py-24 sm:py-32 lg:px-8">
 
             <div className='justify-center flex'> <h1 className='font-bold text-6xl'> Testimonials </h1></div>
+      
+            
 
-            <div className="mx-auto max-w-2xl lg:max-w-4xl bg-white rounded-3xl">
+            <div className=" mx-auto max-w-2xl lg:max-w-4xl bg-white rounded-3xl">
             {/* <img alt="" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" className="mx-auto h-12" /> */}
 
             <figure className="mt-10 flex flex-col md:flex-row md:px-2">
@@ -41,8 +48,9 @@ const testimonial = () => {
 
             </figure>
             </div>
+
     </section>
   )
 }
 
-export default testimonial
+export default testimonial;
