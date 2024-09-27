@@ -48,7 +48,7 @@ const contact = () => {
                                     </div>  
                                     <input  type="text" placeholder='Subject' className='py-3 text-gray-900 bg-transparent rounded-lg border-2 border-gray mt-5'/>
                                     <textarea  placeholder='Message'  className=' h-36 py-3 text-gray-900 bg-transparent rounded-lg border-2 border-gray mt-5' ></textarea>
-                                    <button className='py-3 w-80  bg-transparent border mb-2 rounded-full mt-5'>Submit</button>
+                                    <button className='py-3 w-80  bg-transparent border hover:bg-green-600 mb-2 rounded-full mt-5'>Submit</button>
 
                               </div>
                         </form>

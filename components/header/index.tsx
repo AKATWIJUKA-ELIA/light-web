@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import image from "../../public/images/logo.png";
 import "../../styles/nav.css";
 import "../../styles/index.css";
-import { FaChevronDown } from "react-icons/fa";
-import { HiOutlineBars3 } from "react-icons/hi2";
+
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -54,7 +53,6 @@ const Header = () => {
                   aria-label="Mobile Menu"
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
-                  <HiOutlineBars3/>
                 </button>
 
                 <nav
@@ -63,6 +61,7 @@ const Header = () => {
                 >
                   <ul className="border-2 rounded-full block lg:flex  backdrop-blur-lg lg:space-x-8 top-0 left-0 mr-8 h-full  text-white">
                     <li className="group relative">
+
                       <Link
                         href="."
                         className={`nav hover ml-3 flex py-2 text-white text-md  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
@@ -108,7 +107,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href=""
+                        href="/about"
                         className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >

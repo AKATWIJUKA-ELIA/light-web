@@ -1,10 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import code from '../../public/images/me.png'
-// import { Carousel } from "flowbite-react";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+
 
 
 const testimonial = () => {
