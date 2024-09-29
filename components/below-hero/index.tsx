@@ -13,7 +13,7 @@ const info = () => {
                   
                   <div className='flex flex-col md:mt-24 '>
                   <h1 className='text-start md:text-center md:text-4xl font-semibold'>
-                        <span className='text-5xl font-bold text-white-400 '> <span className='text-pink-400'>S</span>er<span className='text-green-400'>vice</span>s</span>
+                        <span className='text-5xl font-bold text-white-400 '><span className='text-pink-400'>S</span>er<span className='text-green-400'>vice</span>s</span>
                   </h1>
                   <h1 className='text-center mt-5'>
                         <span className='text-3xl  font-bold text-white-400 '>We offer a wide range of IT services to help you achieve your goals.</span>

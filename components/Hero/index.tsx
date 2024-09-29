@@ -51,7 +51,7 @@ const Hero = () => {
 
                   <div className='text-left md:text-center ml-0 md:ml-28 mt-5'>
                         <h1 className=' text-2xl md:text-4xl font-bold text-pink-400'>
-                        I&lsquo;M a
+                        I M a
 
                         <span className='text-left text-blue-500'>
                         <Typewriter
@@ -70,7 +70,7 @@ const Hero = () => {
                         
                         <div className='flex gap-2 mt-10'>
                               <h1 className='font-bold text-2xl' >
-                                   <a href="/contact">  Let&lsquo;s Connect  </a>
+                                   <a href="/contact">  Lets Connect  </a>
                               </h1>
                               <a href="/contact"><BiRightArrowCircle className='text-3xl' /></a>
                               
