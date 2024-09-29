@@ -26,7 +26,7 @@ const contact = () => {
   return (
       <div className=" flex flex-col md:flex-row relative min-h-screen  smooth" style={{ backgroundImage:`url('/images/color-sharp.png')`,backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundPosition:'center', backgroundBlendMode:'multiply'}}  >
       
-            <div className="z-10  ml-96 mt-32 md:mt-2  flex flex-col " >
+            <div className="z-10 mx-3 md:ml-96 md:mt-32 md:mt-2  flex flex-col " >
 
                   <div className="fade-in-slowest text-center md:text-left md:ml-28 mt-32 ">
             
@@ -37,14 +37,14 @@ const contact = () => {
 
                   </div>
 
-                  <div className=' hidden md:block'>
+                  <div className=' md:block'>
             
                         <form action="" className=' mt-2  border-double backdrop-blur-lg'>
                               <h1 className='text-center font-bold'> Send Us an Email</h1>
                               <div className='flex flex-col gap-2 mt-3 px-2'>
-                                    <div className='flex gap-20 '>
-                                          <input type="text" placeholder='Name' className='py-3 w-80 text-gray-900 bg-transparent rounded-lg border-2 border-gray flex'/>
-                                          <input type="text" placeholder='Email' className='py-3 w-80 text-gray-900 bg-transparent rounded-lg border-2 border-gray flex'/>
+                                    <div className='flex gap-8 md:gap-20 '>
+                                          <input type="text" placeholder='Name' className='py-3 w-36 md:w-80 text-gray-900 bg-transparent rounded-lg border-2 border-gray flex'/>
+                                          <input type="text" placeholder='Email' className='py-3 w-36 md:w-80 text-gray-900 bg-transparent rounded-lg border-2 border-gray flex'/>
                                     </div>  
                                     <input  type="text" placeholder='Subject' className='py-3 text-gray-900 bg-transparent rounded-lg border-2 border-gray mt-5'/>
                                     <textarea  placeholder='Message'  className=' h-36 py-3 text-gray-900 bg-transparent rounded-lg border-2 border-gray mt-5' ></textarea>
