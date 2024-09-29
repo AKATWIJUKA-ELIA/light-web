@@ -75,8 +75,6 @@ const Hero = () => {
                               <a href="/contact"><BiRightArrowCircle className='text-3xl' /></a>
                               
                         </div>
-                              
-                        
                   </div>
 
                   <div className="grid grid-cols-3 md:grid md:grid-cols-1 md:gap-2 -ml-3 mt-10 flex  backdrop-blur-sm  text-center md:grid  md:grid-cols-6 md:text-left  ">
