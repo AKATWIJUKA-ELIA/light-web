@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -51,7 +52,7 @@ const Hero = () => {
 
                   <div className='text-left md:text-center ml-0 md:ml-28 mt-5'>
                         <h1 className=' text-2xl md:text-4xl font-bold text-pink-400'>
-                        I M a
+                        I'M a
 
                         <span className='text-left text-blue-500'>
                         <Typewriter
@@ -70,7 +71,7 @@ const Hero = () => {
                         
                         <div className='flex gap-2 mt-10'>
                               <h1 className='font-bold text-2xl' >
-                                   <a href="/contact">  Lets Connect  </a>
+                                   <a href="/contact">  Let's Connect  </a>
                               </h1>
                               <a href="/contact"><BiRightArrowCircle className='text-3xl' /></a>
                               
