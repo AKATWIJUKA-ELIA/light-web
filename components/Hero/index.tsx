@@ -78,25 +78,25 @@ const Hero = () => {
                         </div>
                   </div>
 
-                  <div className="grid grid-cols-3 md:grid md:grid-cols-1 md:gap-2 -ml-3 mt-10 flex  backdrop-blur-sm  text-center md:grid  md:grid-cols-6 md:text-left  ">
+                  <div className="grid grid-cols-6 md:grid md:grid-cols-3 md:gap-2 -ml-3 mt-10 flex  backdrop-blur-sm  text-center md:grid  md:grid-cols-6 md:text-left  ">
                         <a
                         href="https://github.com/AKATWIJUKA-ELIA"
                         className="group slider-up contact slide-up-faster"  >
-                              <BsGithub className='ml-5 mt-4 px-1 rounded-full border text-5xl' />
+                              <BsGithub className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl' />
                         
                         </a>
 
                         <a
                         href="https://www.linkedin.com/in/akatwijuka-elia-64066b295/"
                         className="group slider-up contact slide-up-fast"  >
-                              <BsLinkedin className='ml-5 mt-4 px-1 rounded-full border text-5xl'/>
+                              <BsLinkedin className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl'/>
                         
                         </a>
 
                         <a
                         href="https://x.com/The_light_tech"
                         className="group  slider-up contact slide-up-slow"  >
-                              <BsTwitter className='ml-5 mt-4 px-1 rounded-full border text-5xl'/>
+                              <BsTwitter className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl'/>
                         
                         </a>
 
@@ -104,20 +104,20 @@ const Hero = () => {
                         <a
                         href="https://stackoverflow.com/users/22681878"
                         className="group  slider-up contact slide-up-slower"  >
-                              <BsSlack className='ml-5 mt-4 px-1 rounded-full border text-5xl'/>
+                              <BsSlack className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl'/>
                         
                         </a>
 
                         <a
                         href="https://www.instagram.com/r_e_a_l_m_e_n/"
                         className="group slider-up contact slide-up-fast"  >
-                              <BsInstagram className='ml-5 mt-4 px-1 rounded-full border text-5xl'/>
+                              <BsInstagram className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl'/>
                         
                         </a>
                         <a
                         href="https://www.instagram.com/r_e_a_l_m_e_n/"
                         className="group slider-up contact slide-up-fast"  >
-                              <BsWhatsapp className='ml-5 mt-4 px-1 rounded-full border text-5xl'/>
+                              <BsWhatsapp className='ml-5 mt-4 px-1 rounded-full border text-3xl md:text-5xl'/>
                         
                         </a>
       
