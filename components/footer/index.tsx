@@ -9,7 +9,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 
 const footer = () => {
   return (
-      <div className="fixed bottom-0 left-0 z-40 flex md:hidden w-full  opacity-75 rounded-full backdrop-blur-lg ">
+      <div className="fixed bottom-0 left-0 z-40 flex md:hidden w-full border opacity-75 rounded-full backdrop-blur-lg ">
       <a
         href="https://github.com/AKATWIJUKA-ELIA"
         className="group rounded-lg border border-transparent md:mx-10 px-5 py-4 md:hidden"  >
