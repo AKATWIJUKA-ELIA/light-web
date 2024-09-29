@@ -21,6 +21,11 @@
   input[type="checkbox"]:checked ~ label span svg {
     @apply inline-flex;
   }
+
+  html{
+      scroll-behavior: smooth;
+
+  }
   
   .hero-video {
     position: absolute;

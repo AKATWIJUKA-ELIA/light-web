@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import image from "../../public/images/logo.png";
 import "../../styles/nav.css";
 import "../../styles/index.css";
-import { FaChevronDown } from "react-icons/fa";
-import { HiOutlineBars3 } from "react-icons/hi2";
+
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -31,17 +30,17 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header fixed top-0 left-0 z-40 flex w-full items-center  mt-[-8px] 
+        className={`header fixed top-0 left-0 z-40 flex w-full items-center bg-opacity-20   mt-[-8px] 
             ${sticky ? " bg-dark !fixed !z-[9999] ! bg-opacity-100 shadow-sticky backdrop-blur-lg fade-in !transition dark:! dark:!bg-opacity-100": "absolute" }`
       }
       >
         <div className=" mt-10 container">
           <div className=" relative flex items-center justify-between">
-            <div className=" w-60 relative z-10">
+            <div className=" w-80 relative z-10">
               <Link
                 href="/"
                 className={`header-logo block fade-in-slower`}> 
-                <span className="ml-7 font-bold text-5xl">L I G H T </span>
+                <span className="ml-7 font-bold text-5xl">L I G H T<span className="text-3xl font-light" >tech</span></span>
                 
               </Link>
                   
@@ -54,7 +53,6 @@ const Header = () => {
                   aria-label="Mobile Menu"
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
-                  <HiOutlineBars3/>
                 </button>
 
                 <nav
@@ -63,6 +61,7 @@ const Header = () => {
                 >
                   <ul className="border-2 rounded-full block lg:flex  backdrop-blur-lg lg:space-x-8 top-0 left-0 mr-8 h-full  text-white">
                     <li className="group relative">
+
                       <Link
                         href="."
                         className={`nav hover ml-3 flex py-2 text-white text-md  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
@@ -72,14 +71,14 @@ const Header = () => {
                           Home
                         </span>
                         <span className="my-1 ml-2  font-bold">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
 
                     <li>
                       <Link
-                        href=""
+                        href="#services"
                         className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >
@@ -87,7 +86,7 @@ const Header = () => {
                           Services
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
@@ -102,13 +101,13 @@ const Header = () => {
                         Projects
                         </span>
                         <span className={"my-1 ml-2 dark:text-dark "}>
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href=""
+                        href="/about"
                         className={`nav hover flex py-2  text-white  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                        
                       >
@@ -116,7 +115,7 @@ const Header = () => {
                           About
                         </span>
                         <span className="my-1 ml-2 dark:text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
@@ -131,7 +130,7 @@ const Header = () => {
                           Contact Us
                         </span>
                         <span className="my-1 ml-2 text-dark ">
-                          <FaChevronDown className={"drop"} />
+                          
                         </span>
                       </Link>
                     </li>
