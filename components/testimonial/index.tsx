@@ -9,7 +9,7 @@ const testimonial = () => {
   return (
       <section className="relative justify-center isolate overflow-hidden border rounded-3xl my-10 px-6 py-24 sm:py-32 lg:px-8">
 
-            <div className='justify-center flex'> <h1 className='font-bold text-6xl'> Testimonials </h1></div>
+            <div className='justify-center flex'> <h1 className='font-bold text-5xl md:text-6xl'> Testimonials </h1></div>
       
             
 
