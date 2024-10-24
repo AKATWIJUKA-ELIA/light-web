@@ -213,6 +213,7 @@
   }
 }
 
+
 .slider-right {
   animation-name: slide-in-right;
   animation-timing-function: ease-in-out;
@@ -340,3 +341,8 @@
       color: rgb(159, 25, 2);
       
     }
+.activate{
+      
+      color: gold;
+      border-bottom: 5px solid gold;
+}

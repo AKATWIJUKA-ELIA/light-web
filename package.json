@@ -15,6 +15,7 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "sharp": "^0.33.4",
+    "tw-elements": "^2.0.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
