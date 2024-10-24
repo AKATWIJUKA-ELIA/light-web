@@ -340,3 +340,8 @@
       color: rgb(159, 25, 2);
       
     }
+.activate{
+      
+      color: gold;
+      border-bottom: 5px solid gold;
+}

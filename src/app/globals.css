@@ -34,3 +34,14 @@ body {
 .icon-color{
       color: rgb(255, 64, 0);
 }
+.pointer{
+      cursor: pointer;
+}
+
+.bak{
+      backface-visibility: hidden
+}
+.display{
+      display: flex;
+}
+
