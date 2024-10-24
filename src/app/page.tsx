@@ -5,7 +5,7 @@ import Hero from "../../components/Hero";
 import Header from "../../components/header";
 import Info from "../../components/below-hero";
 import Testimonial from "../../components/testimonial";
-import Carousel from "../../components/Carousel";
+// import Carousel from "../../components/Carousel";
 import { useEffect, useState } from "react";
 
 
@@ -16,7 +16,7 @@ export default function Home() {
     >
       
       <Hero/>
-      <Carousel/>
+      {/* <Carousel/> */}
       <Info />
       
       <Testimonial/>
