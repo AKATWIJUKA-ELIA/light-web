@@ -5,6 +5,10 @@ import { useEffect, useState } from "react";
 import image from "../../public/images/logo.png";
 import "../../styles/nav.css";
 import "../../styles/index.css";
+import Work_experience from "../about/work_experience";
+import Skills from "../about/skills";
+import Education from "../about/education";
+import Interests from "../about/interests";
 
 
 const Header = () => {
@@ -67,6 +71,7 @@ const Header = () => {
                         className={`nav hover ml-3 flex py-2 text-white text-md  font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                         
                       >
+                        
                         <span className={""}>
                           Home
                         </span>
