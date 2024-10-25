@@ -38,11 +38,11 @@ const info = () => {
                         <div className='cursor-pointer border-l-4 border-r-2  border-pink-500 bg-indigo-900  hover:bg-black rounded-3xl '> 
 
                         <h1 className='text-2xl font-bold px-5 mt-10'>
-                                    Desktop Applications
+                                    Computer Repair & Maintenance
                               </h1>
 
                               <h3 className='px-5 py-5 mt-5'>
-                                    We build fast, scalable, and secure web applications using the latest technologies. We build fast, scalable, and secure web applications using the latest technologies.
+                                    We do a wide range of computer repair and maintenance services including but not limited to Windows installation, Drivers Installation, system updating etc.
 
                               </h3>
 
@@ -55,7 +55,7 @@ const info = () => {
                                     </h1>
 
                                     <h3 className='px-5 py-5 mt-5'>
-                                          We build fast, scalable, and secure web applications using the latest technologies.  We build fast, scalable, and secure web applications using the latest technologies.
+                                          We build fast, scalable, and secure System using the latest technologies. These include Hotel Management, school management systems etc...
 
 
                                     </h3>
@@ -65,19 +65,16 @@ const info = () => {
                         <div className='cursor-pointer border-l-4 border-r-2  border-pink-500 bg-green-700  hover:bg-black rounded-3xl '> 
 
                         <h1 className='text-2xl font-bold px-5 mt-10'>
-                                    Web Development
+                                    User Interface Development
                               </h1>
 
                               <h3 className='px-5 py-5 mt-5'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ipsa vero. Dolores incidunt at quod voluptates eius sit illo facere esse, saepe voluptatum deleniti vero, nostrum ducimus officia dolor harum.
+                                    We develop User Interfaces tailored to the user&apos;s needs 
 
                               </h3>
 
                         </div>
 
-                        
-
-                        
                   </div>
 
                   </div>
