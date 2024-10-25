@@ -22,7 +22,7 @@ const testimonial = () => {
                   <img
                   alt="troy"
                   src="images/troy.png"
-                  className="mx-auto py-5 h-20 w-20 md:h-40 md:w-40 rounded-full"
+                  className="mx-auto md:py-5 h-20 w-20 md:h-40 md:w-40 rounded-full"
                   />
 
                   <div className="mt-4 flex flex-col items-center justify-center space-x-3 text-base">
