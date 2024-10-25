@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Children } from 'react';
 import { DiDjango } from 'react-icons/di'; 
 import { FaReact } from 'react-icons/fa';
 import { FaHtml5 } from 'react-icons/fa';
@@ -13,8 +13,8 @@ import Link from 'next/link';
 
 const Skills = () => {
   return (
-    <div className='mr-5 gap-4 flex flex-col rounded-lg backdrop-blur-3xl'>
-            <div className='flex gap-6 -ml-10 mr-12'>
+    <div className='mr-5 gap-4  flex flex-col rounded-lg backdrop-blur-3xl'>
+            <div className='flex flex-col md:flex-row gap-6 md:-ml-10 md:mr-12'>
                   <div className='font-bold rounded-md text-xl  flex h-8 w-36'>
                         <h1>Back End:</h1>
                   </div>
@@ -27,18 +27,13 @@ const Skills = () => {
                              <Link href='https://nextjs.org/'> <RiNextjsFill className='text-6xl text-white'/> </Link>
                              <Link href=''> <SiJavascript className='text-6xl text-yellow-500'/> </Link> 
                              
-                              
-                              
-                              
-                              
-
                         </div>
                   
                   </div>
                   
             </div>
 
-            <div className='flex gap-6 -ml-10 mr-12'>
+            <div className='flex flex-col flex-row gap-6 md:-ml-10 md:mr-12'>
                   <div className='font-bold rounded-md text-xl  flex h-8 w-36'>
                         <h1>Front End:</h1>
                   </div>
@@ -59,10 +54,6 @@ const Skills = () => {
                   </div>
                   
             </div>
-
-     
-     
-      
     </div>
   )
 }
