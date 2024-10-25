@@ -19,8 +19,8 @@ const testimonial = () => {
             <figure className="mt-10 flex flex-col md:flex-row md:px-2">
 
             <figcaption className="mt-10">
-                  <img
-                  alt=""
+                  <Image
+                  alt="ee"
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   className="mx-auto h-20 w-20 md:h-40 md:w-40 rounded-full"
                   />
