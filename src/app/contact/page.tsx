@@ -17,35 +17,35 @@ const Contact = () => {
       const [error, setError] = useState('');
       const [success, setSuccess] = useState('');
   
-      const handleSubmit = async (e: React.FormEvent) => {
-          e.preventDefault();
-          setLoading(true);
-          setError('');
-          setSuccess('');
+      // const handleSubmit = async (e: React.FormEvent) => {
+      //     e.preventDefault();
+      //     setLoading(true);
+      //     setError('');
+      //     setSuccess('');
   
-          try {
-              const response = await fetch('/app/sendmail', {
-                  method: 'POST',
-                  headers: {
-                      'Content-Type': 'application/json',
-                  },
-                  body: JSON.stringify({ email, subject, message }),
-              });
+      //     try {
+      //         const response = await fetch('/app/sendmail', {
+      //             method: 'POST',
+      //             headers: {
+      //                 'Content-Type': 'application/json',
+      //             },
+      //             body: JSON.stringify({ email, subject, message }),
+      //         });
   
-              if (!response.ok) {
-                  throw new Error('Failed to send email');
-              }
+      //         if (!response.ok) {
+      //             throw new Error('Failed to send email');
+      //         }
   
-              setSuccess('Email sent successfully!');
-              setEmail('');
-              setSubject('');
-              setMessage('');
-          } catch (err) {
-              setError(err.message);
-          } finally {
-              setLoading(false);
-          }
-      };
+      //         setSuccess('Email sent successfully!');
+      //         setEmail('');
+      //         setSubject('');
+      //         setMessage('');
+      //     } catch (err) {
+      //         setError(err.message);
+      //     } finally {
+      //         setLoading(false);
+      //     }
+      // };
 
       
       
@@ -65,7 +65,7 @@ const Contact = () => {
 
                   <div className=' md:block'>
             
-                        <form action="" onSubmit={handleSubmit} className=' mt-2  border-double backdrop-blur-lg'>
+                        <form action=""  className=' mt-2  border-double backdrop-blur-lg'>
                               <h1 className='text-center font-bold'> Send Us an Email</h1>
                               <div className='flex flex-col gap-2 mt-3 px-2'>
                                     <div className='flex gap-8 md:gap-20 '>
